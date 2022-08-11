@@ -1,0 +1,10 @@
+
+---
+  - src: git@github.com:VitkinKN/elastic-role.git
+    scm: git
+    version: master
+    name: elastic-role
+  - src: git@github.com:VitkinKN/kibana-role.git
+    scm: git
+    version: master
+    name: kibana-role

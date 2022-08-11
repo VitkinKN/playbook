@@ -1,0 +1,14 @@
+---
+# This is an example playbook to execute Ansible tests.
+
+- name: Verify
+  hosts: all
+  gather_facts: false
+  tasks:
+  - name: Check Elastic version
+  - name: Example assertion
+    assert:
+      that: true
+    #shell:
+     # cmd: /opt/elastic/7.10.1/bin/elasticsearch --version
+    #changed_when: false
