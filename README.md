@@ -348,7 +348,9 @@ INFO     Pruning extra files from scenario ephemeral directory
 ```
 #### *Выложим все roles в репозитории. Проставим тэги, используя семантическую нумерацию.*
 
-[kibana-role репозиторий](https://github.com/VitkinKN/kibana-role)
+- *[kibana-role репозиторий](https://github.com/VitkinKN/kibana-role)*
+- *[elastic - role репозиторий](https://github.com/VitkinKN/elastic-role)*
+- *[playbook репозиторий](https://github.com/VitkinKN/playbook)*
 #### *Добавим roles в requirements.yml в playbook.*
 ```yml
 ---
@@ -361,7 +363,7 @@ INFO     Pruning extra files from scenario ephemeral directory
     version: master
     name: kibana-role
 ```
-#### *Переработайте playbook на использование roles.*
+#### *Переработем playbook на использование roles.*
 ```yml
 ---
 - hosts: elastichost
