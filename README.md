@@ -3,7 +3,7 @@
 
 
 ### 1. Подготовка к выполнению.
-#### Создаём два пустых публичных репозитория в своём проекте: elastic-role и kibana-role.
+#### Создаём три пустых публичных репозитория в своём проекте: elastic-role и kibana-role.
 
 - *[kibana-role репозиторий](https://github.com/VitkinKN/kibana-role)*
 - *[elastic - role репозиторий](https://github.com/VitkinKN/elastic-role)*
@@ -20,8 +20,8 @@ Requirement already satisfied: packaging in /usr/lib/python3/dist-packages (from
 Collecting cookiecutter>=1.7.3
 ...
 ```
-#### Скачаем дистрибутив java и положим его в директорию playbook/files/
-- *Также скачаем elasticsearch-7.10.1-linux-x86_64.tar.gz и kibana-7.10.1-linux-x86_64.tar.gz и поместим их в директорию playbook/files/*
+#### *Скачаем дистрибутив kibana и elasic и положим их в директорию playbook/files*
+#### *elasticsearch-7.10.1-linux-x86_64.tar.gz и kibana-7.10.1-linux-x86_64.tar.gz*
 - *Публичную часть своего ключа к своему профилю в github добавленна*
 ___
 ### 2. Выполнение.
