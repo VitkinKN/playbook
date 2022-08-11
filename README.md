@@ -4,10 +4,10 @@
 
 ### 1. Подготовка к выполнению.
 #### Создаём три пустых публичных репозитория в своём проекте: elastic-role и kibana-role.
-
+- *[playbook репозиторий](https://github.com/VitkinKN/playbook)*
 - *[kibana-role репозиторий](https://github.com/VitkinKN/kibana-role)*
 - *[elastic - role репозиторий](https://github.com/VitkinKN/elastic-role)*
-- *[playbook репозиторий](https://github.com/VitkinKN/playbook)*
+
 
 #### Установливаем molecule:.
 ```
@@ -347,10 +347,10 @@ localhost                  : ok=2    changed=2    unreachable=0    failed=0    s
 INFO     Pruning extra files from scenario ephemeral directory
 ```
 #### *Выложим все roles в репозитории. Проставим тэги, используя семантическую нумерацию.*
-
+- *[playbook репозиторий](https://github.com/VitkinKN/playbook)*
 - *[kibana-role репозиторий](https://github.com/VitkinKN/kibana-role)*
 - *[elastic - role репозиторий](https://github.com/VitkinKN/elastic-role)*
-- *[playbook репозиторий](https://github.com/VitkinKN/playbook)*
+
 #### *Добавим roles в requirements.yml в playbook.*
 ```yml
 ---
